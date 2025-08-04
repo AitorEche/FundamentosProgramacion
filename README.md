@@ -1,10 +1,12 @@
-#include <iostream> // libreria para manejar mensajes cout y sin
+#include <iostream>
 
-using namespace std; // Maneja la salida y la entrada standard
+int main() {
 
-int main() // Inicio del algoritmo
-{
-    cout<<"Hola Mundo";
-
-    return 0; // No duelve nada
+    std::cout << "CORO:" << std::endl;
+    std::cout << "Bolivianos: el hado propicio" << std::endl;
+    std::cout << "coronó nuestros votos y anhelo;" << std::endl;
+    std::cout << "es ya libre, ya libre este suelo," << std::endl;
+    std::cout << "ya cesó su servil condición." << std::endl;
+    
+    return 0;
 }
