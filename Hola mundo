@@ -1,0 +1,10 @@
+#include <iostream> // libreria para manejar mensajes cout y sin
+
+using namespace std; // Maneja la salida y la entrada standard
+
+int main() // Inicio del programa 
+{
+    cout<<"Hola Mundo";
+
+    return 0;
+}
