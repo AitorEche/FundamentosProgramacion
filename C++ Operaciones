@@ -1,0 +1,32 @@
+#include <iostream> // librerias
+
+// Utilizar la salida y la entrada estandar teclado y monitor
+using namespace std;
+
+
+int main()
+{
+    //Declaro variables en C++
+    int A,B,C,D,E,F;
+    
+    cout<<"<<Ingresar el primer numero";
+    cin>>A;
+    cout<<"Ingresar el segundo numero";
+    cin>>B;
+    C=A+B;
+    D=A-B;
+    E=A*B;
+    F=A/B;
+
+    cout<<" La suma es: "<<C;
+    
+    cout<<" La resta es: "<<D;
+    
+    cout<<" La multiplicacion es: "<<E;
+    
+    cout<<" La Division es: "<<F; 
+    
+
+
+    return 0;
+}
