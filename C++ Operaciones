@@ -9,22 +9,22 @@ int main()
     //Declaro variables en C++
     int A,B,C,D,E,F;
     
-    cout<<"<<Ingresar el primer numero";
+    cout<<"<<Ingresar el primer numero: ";
     cin>>A;
-    cout<<"Ingresar el segundo numero";
+    cout<<"Ingresar el segundo numero: ";
     cin>>B;
     C=A+B;
     D=A-B;
     E=A*B;
     F=A/B;
 
-    cout<<" La suma es: "<<C;
+    cout<<" La suma es: "<<C<<endl;
     
-    cout<<" La resta es: "<<D;
+    cout<<" La resta es: "<<D<<endl;
     
-    cout<<" La multiplicacion es: "<<E;
+    cout<<" La multiplicacion es: "<<E<<endl;
     
-    cout<<" La Division es: "<<F; 
+    cout<<" La Division es: "<<F<<endl; 
     
 
 
